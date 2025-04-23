@@ -8,7 +8,13 @@ Rust implementation of [git-blame-pr.pl](https://gist.github.com/kazuho/eab551e5
 Displays the `git blame` output along with corresponding Pull Request numbers.
 
 
-## Usage
+## Installation
+```
+% cargo install git-blame-pr
+```
+
+
+### Usage
 ```
 $ git-blame-pr path/to/file
 ```
