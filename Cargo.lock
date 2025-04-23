@@ -19,7 +19,7 @@ checksum = "2baed9705788e982726814575b956b3d5ac0535d7f6be51b3f5ef095d26a88e4"
 
 [[package]]
 name = "git-blame-pr"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "git-blame-parser",
  "regex",
