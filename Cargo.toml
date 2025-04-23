@@ -4,8 +4,8 @@ description = "git blame with the PR number"
 version = "0.1.0"
 edition = "2024"
 authors = ["mitsu-ksgr"]
-repository = "https://github.com/mitsu-ksgr/git-blame-parser"
-license = "MIT"
+repository = "https://github.com/mitsu-ksgr/git-blame-pr"
+license = "CC0-1.0"
 
 [dependencies]
 git-blame-parser = "0.1.1"
