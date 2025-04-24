@@ -76,7 +76,7 @@ pub struct Config {
 impl Config {
     pub fn build(args: &[String]) -> Result<Config, String> {
         if args.len() < 2 {
-            return Err(String::from("missing args"));
+            return Err(String::from("missing args: <filepath>"));
         }
 
         let filepath = std::path::PathBuf::from(args[1].clone());
